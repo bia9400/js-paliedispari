@@ -37,8 +37,10 @@ function numeroRandom(min, max){
 
 
 let k= numeroRandom(1,5)
-console.log(k);
+console.log("Il numero Random del Pc è " + k);
+
 let r= parseInt(userNumberChoice)
+console.log("Il tuo numero è" + r);
 let somma= k + r;
 console.log("La somma dei due numeri è "+somma);
 
