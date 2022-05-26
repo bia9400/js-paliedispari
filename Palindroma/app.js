@@ -22,7 +22,7 @@ function isPalindroma(parolaDaAnalizzare) {
        
     }
     else{
-        alert("La tua parola non è palindroma")
+        alert("La tua parola NON è palindroma")
         
     }
 }
