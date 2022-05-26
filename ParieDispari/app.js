@@ -57,7 +57,7 @@ if(isPari(somma)=="pippo" && oddOReven=="pari" ){
     alert("Hai scelto pari, la somma è pari, Hai vinto!!")
 }
 else if(isPari(somma)=="pluto" && oddOReven=="dispari" ){
-    alert("Hai scelto dispari,la somma è dispari, Hai vinto!!")
+    alert("Hai scelto dispari,la somma è dispari,   Hai vinto!!")
 }
 else{
     alert("Hai perso!!")
