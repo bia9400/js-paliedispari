@@ -40,7 +40,7 @@ let k= numeroRandom(1,5)
 console.log("Il numero Random del Pc è " + k);
 
 let r= parseInt(userNumberChoice)
-console.log("Il tuo numero è" + r);
+console.log("Il tuo numero è " + r);
 let somma= k + r;
 console.log("La somma dei due numeri è "+somma);
 
@@ -54,10 +54,10 @@ function isPari(somma){
 }
 
 if(isPari(somma)=="pippo" && oddOReven=="pari" ){
-    alert("Hai vinto!!")
+    alert("Hai scelto pari, la somma è pari, Hai vinto!!")
 }
 else if(isPari(somma)=="pluto" && oddOReven=="dispari" ){
-    alert("Hai vinto!!")
+    alert("Hai scelto dispari,la somma è dispari, Hai vinto!!")
 }
 else{
     alert("Hai perso!!")
